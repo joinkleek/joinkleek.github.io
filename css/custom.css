@@ -1,0 +1,62 @@
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Press Start 2P', 'Avenir', cursive;
+}
+
+.header {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.vert-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.dp {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+@media all and (min-width: 2560px) {
+    body {
+        font-size: 40px;
+    }
+    .dp {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 11px;
+        padding: 20px 20px;
+    }
+    .dp {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    body {
+        font-size: 10px;
+        padding: 20px 20px;
+    }
+    .dp {
+        height: 150px;
+        width: 150px;
+    }
+}
